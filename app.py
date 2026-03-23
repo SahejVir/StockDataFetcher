@@ -5,7 +5,9 @@ from secret import ALPHA_VANTAGE_API_KEY
 
 st.title("Stock Price Fetcher")
 
-st.write("Enter a stock symbol")
+st.write("Developed by Sahej Vir Singh Pasay")
+
+st.write("Enter any stock symbol listed in the United States")
 
 symbol = st.text_input("Stock Symbol", placeholder="AAPL, MSFT, TSLA")
 
